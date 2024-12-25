@@ -58,7 +58,7 @@ async function downloadSessionData() {
         const response = await axios.get(url);
         const data = typeof response.data === 'string' ? response.data : JSON.stringify(response.data);
         await fs.promises.writeFile(credsPath, data);
-        console.log("🤠 YESSER MD ONLINE🤠");
+        console.log("💚 MAGIC-BOT IS ONLINE🥰");
         return true;
     } catch (error) {
        // console.error('Failed to download session data:', error);
@@ -83,7 +83,7 @@ async function start() {
                     const msg = await store.loadMessage(key.remoteJid, key.id);
                     return msg.message || undefined;
                 }
-                return { conversation: "BEST WHATSAPP BOT MADE BY YESSER TECH" };
+                return { conversation: "BEST WHATSAPP BOT MADE BY MUNGAI YOBIH" };
             }
         });
 
@@ -95,8 +95,8 @@ async function start() {
                 }
             } else if (connection === 'open') {
                 if (initialConnection) {
-                    console.log(chalk.green("YESSER MD CONNECTED SUCCESSFULLY ✅"));
-                    Matrix.sendMessage(Matrix.user.id, { text: `╭─────────────━┈⊷\n│ *ᴀɪ ɪs ᴄᴏɴɴᴇᴄᴛᴇᴅ*\n╰─────────────━┈⊷\n\n╭─────────────━┈⊷\n│🤖 ʙᴏᴛ ɴᴀᴍᴇ: *ʙᴍᴡ ᴍᴅ*\n│👨‍💻 ᴏᴡɴᴇʀ : *sɪʀ ɪʙʀᴀʜɪᴍ*\n╰─────────────━┈⊷\n\n*Join Whatsapp Channel For Updates*\n_https://whatsapp.com/channel/0029VaZuGSxEawdxZK9CzM0Y_` });
+                    console.log(chalk.green("MAGIC-BOT CONNECTED SUCCESSFULLY ✅"));
+                    Matrix.sendMessage(Matrix.user.id, { text: `╭─────────────━┈⊷\n│ *MAGIC BOT IS CONNECTED*\n╰─────────────━┈⊷\n\n╭─────────────━┈⊷\n│🤖 ʙᴏᴛ ɴᴀᴍᴇ: *MAGIC-BOT*\n│👨‍💻 ᴏᴡɴᴇʀ : *MUNGAI YOBIH*\n╰─────────────━┈⊷\n\n*Join Whatsapp Channel For Updates*\n_https://whatsapp.com/channel/0029Vajp1HY4o7qSc0kE9o1g_` });
                     initialConnection = false;
                 } else {
                     console.log(chalk.blue("Restarted Successfully...!."));
@@ -156,7 +156,7 @@ async function init() {
 init();
 
 app.get('/', (req, res) => {
-    res.send('YESSER MD CONNECTED SUCCESSFULLY ✅');
+    res.send('MAGIC_BOT CONNECTED SUCCESSFULLY ✅');
 });
 
 app.listen(PORT, () => {
