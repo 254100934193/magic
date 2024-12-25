@@ -5,14 +5,16 @@
 
 
 
+#### DEPLOY TO HEROKU 
+**1. If You Don't Have An Account On Heroku**
 
-1.👇 Create Account on Heroku  
-[![Create Account on Heroku](https://img.shields.io/static/v1?label=Create%20Account&message=Heroku&color=430098&style=for-the-badge&logo=heroku&logoColor=white)](https://heroku.com)  
+- <a align="center"><a href="https://signup.heroku.com">
+ <img src="https://img.shields.io/badge/Create%20Account%20Now-red?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 
-<br>
+**2. If You Have a Heroku Account**
+  - <a align="center"><a href="https://dashboard.heroku.com/new?button-url=https://https://github.com/254100934193/magic-MD&template=https://https://github.com/254100934193/magic"> <img src="https://img.shields.io/badge/DEPLOY%20NOW-yellow?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
-2.👇 Deploy to Heroku If your have account
-[![Deploy to Heroku](https://img.shields.io/static/v1?label=Deploy%20to&message=Heroku&color=430098&style=for-the-badge&logo=heroku&logoColor=white)](https://dashboard.heroku.com/new?template=https://https://github.com/254100934193/magic)  
 
 
 
@@ -28,7 +30,7 @@
 
 
 
-### N/B : THIS BOT IS CURRENTLY USING YOBIH BUG BOT SESSION ID,THE SESSION ID IS VERY COMPATIBLE WITH THIS BOT.
+ N/B : THIS BOT IS CURRENTLY USING YOBIH BUG BOT SESSION ID,THE SESSION ID IS VERY COMPATIBLE WITH THIS BOT.
 
 
 ***MAGIC BOT SESSION ID WILL BE CREATED LATER,,I'M MUNGAI YOBIH***
