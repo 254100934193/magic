@@ -18,8 +18,8 @@ const text = m.body.slice(prefix.length + cmd.length).trim();
     const botAdmin = participants.find(p => p.id === botNumber)?.admin;
     const senderAdmin = participants.find(p => p.id === m.sender)?.admin;
 
-    if (!botAdmin) return m.reply("*🥺 BOT MUST BE AN ADMIN TO USE THIS COMMAND*");
-    if (!senderAdmin) return m.reply("*🙃 YOU MUST BE AN ADMIN TO USE THIS COMMAND*");
+    if (!botAdmin) return m.reply("*🥺 BOT MUST BE AN ADMIN TO USE THIS COMMAND☠*");
+    if (!senderAdmin) return m.reply("*🙃 👀YOU MUST BE AN ADMIN TO USE THIS COMMAND*");
 
     if (!m.mentionedJid) m.mentionedJid = [];
 
@@ -32,7 +32,7 @@ const text = m.body.slice(prefix.length + cmd.length).trim();
       : [];
 
     if (users.length === 0) {
-      return m.reply("*😊 PLEASE MENTION OR QUOTE A USER TO DEMOTE*");
+      return m.reply("*😊 PLEASE MENTION OR QUOTE A USER TO DEMOTE😈.*");
     }
 
     const validUsers = users.filter(Boolean);
