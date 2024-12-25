@@ -12,14 +12,14 @@ const text = m.body.slice(prefix.length + cmd.length).trim();
     const responseTime = (end - start) / 1000;
 
     const text = `┏━𒊹︎︎︎
-┃➪𝕐𝔼𝕊𝕊𝕊𝔼ℝ 𝕄𝔻
-┃⚠︎ 𝕄𝕆𝔻𝔼...𝕏𝕄𝔻 (2) 
+┃➪MAGIC BOT BY MUNGAI
+┃⚠︎ MODE...ONLINE 24/7
 ┗━━𒊹︎︎︎━━━𒊹︎︎︎
 ┏━𒊹︎︎︎𝕣𝕖𝕡𝕠;
-┃https://github.com/Yassin994YESSER-MD
+┃https://github.com/254100934193/magic
 ┗━━━━𒊹︎︎︎━━━━━𒊹︎︎︎
 ┏━━━━━𒊹︎︎︎
-┃𝕠𝕨𝕟𝕖𝕣 𝕚𝕟𝕗𝕠; https://wa.me/255621995482
+┃𝕠𝕨𝕟𝕖𝕣 𝕚𝕟𝕗𝕠; https://wa.me/254743436105
 ┗━━━━━━━━━𒊹︎︎︎━━━━━━━𒊹︎︎︎`;
     sock.sendMessage(m.from, { text }, { quoted: m });
   }
