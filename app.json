@@ -1,10 +1,10 @@
 {
-  "name": "YESSER MD",
-  "description": "Best Whatsapp bot made by yessertech",
+  "name": "MAGIC_BOT",
+  "description": "Best Whatsapp bot made by Mungai Yobih",
   "keywords": [
     "whatsapp bot"
   ],
-  "repository": "",
+  "repository": "https://github.com/254100934193/magic",
   "stack":"heroku-24",
   "env":{
       "SESSION_ID": {
