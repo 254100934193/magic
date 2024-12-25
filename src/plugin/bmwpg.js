@@ -13,7 +13,7 @@ const text = m.body.slice(prefix.length + cmd.length).trim();
 
 
 
-    const text = `*Yesermd▰▰▰▰▰▱▱▱▱ 70${responseTime.toFixed(2)}0 ms*`;
+    const text = `*MAGIC-BOT BY MUNGAI▰▰▰▰▰▱▱▱▱ 70${responseTime.toFixed(2)}0 ms*`;
     sock.sendMessage(m.from, { text }, { quoted: m });
   }
 }
