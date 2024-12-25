@@ -1,18 +1,18 @@
 
 {
-  "name": "YESSER-MD",
+  "name": "MAGIC-BOT",
   "version": "10.8.1",
-  "description": "YESSER-MD latest multi device whatsapp bot",
+  "description": "MAGIC-BOT latest multi device whatsapp bot",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name BMW-MD",
-    "stop": "pm2 stop YESSER-MD",
-    "restart": "pm2 restart YESSER-MD"
+    "start": "pm2 start index.js --deep-monitoring --attach --name MAGIC-BOT",
+    "stop": "pm2 stop MAGIC-BOT",
+    "restart": "pm2 restart MAGIC-BOT"
   },
-  "keywords": ["YESSER-md", "whatsapp-bot", "whatsapp md bot"],
-  "author": "yesser tech",
-  "license": "ISC",
+  "keywords": ["MAGIC-BOT", "whatsapp-bot", "whatsapp md bot"],
+  "author": "Yobih Mungai",
+  "license": "MIT",
   "dependencies": {
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
     "@google/generative-ai": "^0.9.0",
